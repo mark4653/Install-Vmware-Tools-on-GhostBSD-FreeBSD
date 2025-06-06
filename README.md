@@ -20,7 +20,7 @@ vmware_guest_vmmemctl_enable="YES"
 vmware_guest_vmxnet_enable="YES"
 vmware_guestd_enable="YES"
 ```
-Once you're done entering, open `/usr/local/etc/X11/xorg.conf.d/vmware.conf (if there isn't one)` and add the phrase below.
+Once you're done entering, open `/usr/local/etc/X11/xorg.conf.d/vmware.conf (if you don't have one, let's create one)` and add the phrase below.
 ```
 Section "ServerFlags"
     Option "AutoAddDevices" "false"
